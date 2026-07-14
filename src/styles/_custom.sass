@@ -3,15 +3,21 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    top: 78%
+    left: 50%
+    width: 5%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
+    top: 20%
+    right: 65%
+    width: 5%
+  &-3
+    animation: float1 2.5s ease-in-out infinite alternate
+    position: absolute
     top: 30%
-    right: 10%
-    width: 20%
+    right: 30%
+    width: 5%
 
 
 @keyframes float1
@@ -23,11 +29,11 @@
 
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
-  width: 58.33333333% !important
+  width: 40% !important
 .banner-principal__img 
   padding-bottom: 0 !important;
 .banner-principal__row .banner-principal__img 
-    width: 33%;
+  width: 50%;
     
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
   color: $color-sistema-texto !important  
@@ -47,7 +53,31 @@ figcaption
 .banner-interno__titulo__icono i
     color: $color-acento-botones !important;
 
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/movil.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 14% !important 
+    h1, p
+      color: $white
 
+.banner-principal  
+  @media (min-width: 768px) and (max-width: 1024px)
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 8% !important 
+    h1, p
+      color: $white  
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/banner-interno.png") !important
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -101,6 +131,55 @@ figcaption
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em  !important
-
+.fa-info 
+  --fa: "\f129"
+  color: black
   
- 
+.bg1
+  background-color: #F0FDD8
+  border-radius: 160px
+  width: 100%
+  height: auto
+  @media (max-width: 768px)
+    width: 100%
+    min-height: 100%
+    padding-bottom: 2rem
+    border-radius: 40px
+  @media (min-width: 769px) and (max-width: 1024px)
+    border-radius: 80px
+    padding-bottom: 2rem
+    min-height: 100%
+
+.bloque-texto-g__texto1
+  position: relative
+  width: 60%
+  background: rgba(255,255,255,.95)
+  border-top-right-radius: 120px
+  border-bottom-right-radius: 120px
+  padding: 2rem 3rem
+
+  @media (max-width: 768px)
+    width: 100%
+    border-radius: 20px
+    padding: 1.5rem
+    margin: 0 auto
+
+  @media (min-width: 768px) and (max-width: 1024px)
+    width: 100%
+    border-radius: 40px
+    padding: 2rem
+    margin: 0 auto
+    box-sizing: border-box
+
+.fondo01
+  background-image: url('../assets/curso/temas/t1/fondo1.png')
+  background-position: bottom !important
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
