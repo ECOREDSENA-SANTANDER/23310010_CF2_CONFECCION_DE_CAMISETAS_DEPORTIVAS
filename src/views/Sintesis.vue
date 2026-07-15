@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="zoom-in-left")
     p La confección de una camiseta deportiva comienza con la preparación del entorno en el que se desarrollará el proceso. La distribución del puesto de trabajo, la ubicación de la maquinaria y la disponibilidad de herramientas y equipos permiten realizar las operaciones con orden, continuidad y seguridad.
     p El proceso continúa con la selección de las telas y los insumos, la revisión de sus características y la ejecución del tendido, el marcado y el corte. Después, las piezas se verifican, agrupan e identifican antes de ingresar al ensamble, evitando faltantes, mezclas de tallas o errores que puedan afectar la calidad de la prenda.
     p Con los materiales preparados, la máquina fileteadora y la máquina plana industrial de una aguja intervienen en las diferentes operaciones de unión y acabado. Su puesta a punto, el manejo técnico y el seguimiento de la secuencia operativa permiten integrar progresivamente las piezas hasta completar la camiseta deportiva tipo polo.
