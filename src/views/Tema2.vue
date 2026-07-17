@@ -316,7 +316,7 @@
               figure
                 img(src='@/assets/curso/temas/t2/1.png', alt='')
             .col-lg-9.mb-4.mb-lg-0
-              h5 Agrupación por talla y referencia
+              h4 Agrupación por talla y referencia
               p Las piezas se separan según el molde y el pedido al que pertenecen, evitando cruces entre paquetes que alteren la correspondencia del producto.
           
           .row(titulo="Paso 2" subtitulo="")
@@ -324,14 +324,14 @@
               figure
                 img(src='@/assets/curso/temas/t2/2.png', alt='')
             .col-lg-9.mb-4.mb-lg-0
-              h5 Verificación de las piezas por paquete
+              h4 Verificación de las piezas por paquete
               p El contenido físico se coteja con la lista de corte para confirmar la presencia de todas las partes constitutivas de la prenda, como el delantero, la espalda, las mangas, los cuellos, los bolsillos o las piezas complementarias, según la referencia elaborada.
           .row(titulo="Paso 3" subtitulo="")
             .col-lg-3.col-6.mb-3
               figure
                 img(src='@/assets/curso/temas/t2/3.png', alt='')
             .col-lg-9.mb-4.mb-lg-0
-              h5 Transferencia de marcas de unión y detalles internos
+              h4 Transferencia de marcas de unión y detalles internos
               p Se trasladan a las piezas cortadas los puntos de coincidencia requeridos para el ensamble, entre ellos los centros, los piquetes, las posiciones de bolsillos, las líneas de doblez o las referencias de ubicación. Esta marcación puede realizarse mediante tiza de sastre, perforaciones controladas o procedimientos equivalentes definidos por el sistema de producción.
           
           .row(titulo="Paso 4" subtitulo="")
@@ -339,7 +339,7 @@
               figure
                 img(src='@/assets/curso/temas/t2/4.png', alt='')
             .col-lg-9.mb-4.mb-lg-0
-              h5 Incorporación de insumos al paquete
+              h4 Incorporación de insumos al paquete
               p Se integran los materiales complementarios requeridos para la operación, como hilos, entretelas, cierres, elásticos o accesorios, con el fin de evitar interrupciones por faltantes durante la costura.
 
     .bloque-texto-g.bloque-texto-g--inverso.bg6.p-3.p-sm-4.p-md-5.mb-4
