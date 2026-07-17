@@ -32,7 +32,7 @@
 
     p La puesta a punto de la máquina fileteadora con puntada de seguridad comprende una secuencia de trece pasos que deben ejecutarse de manera ordenada antes de iniciar las operaciones de confección.
     
-    .fondosly.p-3.p-md-4.p-lg-5.mb-4
+    .fondosly.p-3.p-md-4.p-lg-5.mb-4(data-aos="zoom-in-left")
       .tarjeta.tarjeta-blanca.p-4
         LineaTiempoC.color-acento-botones(text-small)
           .row.justify-content-center(titulo="1")
@@ -241,7 +241,7 @@
               h4.mb-3 Unión de piezas en filete con puntada de seguridad
               p Esta operación consiste en unir dos piezas de tela mediante una costura de filete con puntada de seguridad, realizando simultáneamente el sobrehilado de los bordes. Para su ejecución, las piezas deben alinearse correctamente y colocarse una sobre otra antes de posicionarlas bajo el prensatelas. Durante la costura, el material debe guiarse de manera uniforme, permitiendo que la cuchilla elimine únicamente el excedente del borde sin afectar las dimensiones de las piezas.
               p Al finalizar la operación, se verifica que la unión conserve la misma apariencia al inicio y al final de la costura, garantizando continuidad, resistencia y correcta alineación de las piezas ensambladas.
-              .row
+              .row.mb-3
                 .col-sm-auto
                   p Consulte el video correspondiente:
                 .col-sm-auto
@@ -251,7 +251,7 @@
                   )
                     span Abrir video
                     i.fas.fa-file-video     
-            .col-lg-3.col-md-10
+            .col-lg-3.col-md-7
               img(src='@/assets/curso/temas/t3/img03.png', alt='')
           
           .row.justify-content-center.align-items-center
@@ -260,7 +260,7 @@
               p Esta operación tiene como propósito desarrollar el control del material durante el sobrehilado en una trayectoria recta. Su práctica permite familiarizarse con el funcionamiento de la máquina, el guiado de la pieza y la formación uniforme de la costura.
               p Durante la ejecución, la pieza debe mantenerse alineada y guiarse de manera constante, procurando que la cuchilla retire únicamente el excedente del borde. Asimismo, se debe conservar una velocidad uniforme y verificar que el ancho del filete permanezca constante durante todo el recorrido.
               p El dominio de esta operación favorece la precisión en el acabado de las piezas y constituye una base para el desarrollo de operaciones de mayor complejidad.
-              .row
+              .row.mb-3
                 .col-sm-auto
                   p Consulte el video correspondiente:
                 .col-sm-auto
@@ -270,7 +270,7 @@
                   )
                     span Abrir video
                     i.fas.fa-file-video     
-            .col-lg-3.col-md-10
+            .col-lg-3.col-md-7
               img(src='@/assets/curso/temas/t3/img04.png', alt='')
 
           .row.justify-content-center.align-items-center
@@ -278,7 +278,7 @@
               h4.mb-3 Remate en filete
               p El remate en filete permite asegurar el inicio y el final de la costura para evitar que el sobrehilado se desprenda durante el uso o el lavado de la prenda. La operación consiste en incorporar la cadeneta inicial dentro de las primeras puntadas de costura y realizar un procedimiento similar al finalizar el recorrido.
               p Para ello, se ejecutan algunas puntadas iniciales y se conduce la cadeneta hacia el interior de la costura. Al terminar, se realizan unas pocas puntadas adicionales, se gira la pieza y se continúa brevemente sobre la misma línea para asegurar el remate. Este procedimiento mejora la resistencia de la costura y contribuye a la estabilidad del acabado.
-              .row.mb-0
+              .row.mb-0.mb-3
                 .col-sm-auto
                   p Consulte el video correspondiente:
                 .col-sm-auto
@@ -288,7 +288,7 @@
                   )
                     span Abrir video
                     i.fas.fa-file-video     
-            .col-lg-3.col-md-10
+            .col-lg-3.col-md-7
               img(src='@/assets/curso/temas/t3/img04.png', alt='')
 
     p Las operaciones básicas de unión, fileteado y remate constituyen la base para el manejo adecuado de la máquina fileteadora con puntada de seguridad. Su práctica sistemática permite desarrollar precisión, coordinación y control sobre el material, competencias fundamentales para garantizar la calidad del ensamble en la confección de camisetas deportivas.
@@ -298,7 +298,7 @@
     #t_3_2.titulo-segundo.mb-4(data-aos="zoom-in-left")
       h2 3.2  Máquina plana industrial de una aguja
 
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-lg-12
         img(src='@/assets/curso/temas/t3/img06.png', alt='')
     p La máquina plana industrial de una aguja se emplea en diferentes operaciones de ensamble y acabado durante la confección de camisetas deportivas. Su manejo requiere una preparación previa que permita comprobar el estado del equipo, realizar correctamente el enhebrado, ajustar los elementos que intervienen en la formación de la puntada y verificar las condiciones de seguridad antes de iniciar la costura.
@@ -313,10 +313,10 @@
 
     p Antes de iniciar las operaciones de costura, consulte los videos en el orden presentado. Durante el recorrido, identifique las herramientas requeridas, los procedimientos de preparación de la máquina y las verificaciones necesarias para favorecer su funcionamiento y uso seguro.
 
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-lg-12.col-10
         LineaTiempoE.color-acento-contenido
-          .row(titulo="Paso 1" subtitulo="")
+          .row(titulo="Paso 1" subtitulo="")(data-aos="zoom-in-left")
             .col-lg-3.col-6.mb-3
               figure
                 img(src='@/assets/curso/temas/t3/01.png', alt='')
@@ -327,7 +327,7 @@
                 a.boton.color-acento-botones.texto-blanco( href="https://www.youtube.com/watch?v=BlsIooZH9gg&list=PLkc5n6npRWkjS1Oni_VR8m2ZJh2pb3E6C&index=13" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
-          .row(titulo="Paso 2" subtitulo="")
+          .row(titulo="Paso 2" subtitulo="")(data-aos="zoom-in-left")
             .col-lg-3.col-6.mb-3
               figure
                 img(src='@/assets/curso/temas/t3/02.png', alt='')
@@ -339,7 +339,7 @@
                   span Abrir video
                   i.fas.fa-file-video
 
-          .row(titulo="Paso 3" subtitulo="")
+          .row(titulo="Paso 3" subtitulo="")(data-aos="zoom-in-left")
             .col-lg-3.col-6.mb-3
               figure
                 img(src='@/assets/curso/temas/t3/03.png', alt='')
@@ -351,7 +351,7 @@
                   span Abrir video
                   i.fas.fa-file-video
 
-          .row(titulo="Paso 4" subtitulo="")
+          .row(titulo="Paso 4" subtitulo="")(data-aos="zoom-in-left")
             .col-lg-3.col-6.mb-3
               figure
                 img(src='@/assets/curso/temas/t3/04.png', alt='')
@@ -363,7 +363,7 @@
                   span Abrir video
                   i.fas.fa-file-video
 
-          .row(titulo="Paso 5" subtitulo="")
+          .row(titulo="Paso 5" subtitulo="")(data-aos="zoom-in-left")
             .col-lg-3.col-6.mb-3
               figure
                 img(src='@/assets/curso/temas/t3/05.png', alt='')
@@ -375,7 +375,7 @@
                   span Abrir video
                   i.fas.fa-file-video
 
-          .row(titulo="Paso 6" subtitulo="")
+          .row(titulo="Paso 6" subtitulo="")(data-aos="zoom-in-left")
             .col-lg-3.col-6.mb-3
               figure
                 img(src='@/assets/curso/temas/t3/06.png', alt='')
@@ -387,7 +387,7 @@
                   span Abrir video
                   i.fas.fa-file-video
 
-          .row(titulo="Paso 7" subtitulo="")
+          .row(titulo="Paso 7" subtitulo="")(data-aos="zoom-in-left")
             .col-lg-3.col-6.mb-3
               figure
                 img(src='@/assets/curso/temas/t3/07.png', alt='')
@@ -399,7 +399,7 @@
                   span Abrir video
                   i.fas.fa-file-video
 
-          .row(titulo="Paso 8" subtitulo="")
+          .row(titulo="Paso 8" subtitulo="")(data-aos="zoom-in-left")
             .col-lg-3.col-6.mb-3
               figure
                 img(src='@/assets/curso/temas/t3/08.png', alt='')
@@ -411,7 +411,7 @@
                   span Abrir video
                   i.fas.fa-file-video
 
-          .row(titulo="Paso 9" subtitulo="")
+          .row(titulo="Paso 9" subtitulo="")(data-aos="zoom-in-left")
             .col-lg-3.col-6.mb-3
               figure
                 img(src='@/assets/curso/temas/t3/09.png', alt='')
@@ -423,7 +423,7 @@
                   span Abrir video
                   i.fas.fa-file-video
 
-          .row(titulo="Paso 10" subtitulo="")
+          .row(titulo="Paso 10" subtitulo="")(data-aos="zoom-in-left")
             .col-lg-3.col-6.mb-3
               figure
                 img(src='@/assets/curso/temas/t3/10.png', alt='')
@@ -453,7 +453,7 @@
 
     p Consulte los videos en el orden presentado. Durante el recorrido, identifique el tipo de operación, la medida utilizada y su aplicación dentro del proceso de confección.
 
-    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-4
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-4(data-aos="zoom-in-left")
       .row.justify-content-center(titulo="Costuras rectas a 1/4 de pulgada")
         .col-lg-5.mb-3.col-10
           .row
@@ -569,7 +569,7 @@
     p Consulte los videos en el orden establecido. Durante el recorrido, identifique las piezas que intervienen en cada operación y la secuencia de ensamble desarrollada desde el alistamiento inicial hasta la elaboración de los ojales y la colocación de los botones.
 
 
-    .fondosly.p-3.p-md-4.p-lg-5.mb-4
+    .fondosly.p-3.p-md-4.p-lg-5.mb-4(data-aos="zoom-in-left")
       .tarjeta.tarjeta-blanca.p-4
         LineaTiempoC.color-acento-botones(text-small)
           .row.justify-content-center(titulo="1")
@@ -579,7 +579,7 @@
               h4 Alistamiento para la confección de la camiseta tipo polo
               p Consulte el video:  
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco( href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco( href="https://www.youtube.com/watch?v=wsb9glAu1qk&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=10" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
@@ -590,7 +590,7 @@
               h4 Prehormado de la pechera y elaboración del quiebre en el delantero
               p Consulte el video:
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=v_yemOgg9Rw&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=9" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
@@ -601,7 +601,7 @@
               h4 Pegado de la pechera
               p Consulte el video:
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=5B1k2XznFlg&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=18" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
@@ -612,7 +612,7 @@
               h4 Unión por los hombros
               p Consulte el video:
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=rBrE6bikCRw&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=8" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
@@ -623,7 +623,7 @@
               h4 Pegado de los puños tejidos a las mangas
               p Consulte el video:
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=WiAEkGtqQG4&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=7" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
@@ -634,7 +634,7 @@
               h4 Pespunte de los puños de las mangas
               p Consulte el video:
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=HBleW0yTvAg&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=6" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
@@ -645,7 +645,7 @@
               h4 Pespunte de los hombros
               p Consulte el video:
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=SKK9Trf8254&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=5" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
@@ -656,7 +656,7 @@
               h4 Fijación de las puntas del cuello
               p Consulte el video:
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=Z_XH8YaJIlA&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=4" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
@@ -667,7 +667,7 @@
               h4 Pegado del cuello
               p Consulte el video:
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=NXY9Tb77E3o&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=3" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
@@ -678,7 +678,7 @@
               h4 Pespuntar cuello
               p Consulte el video:
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=9c0_G42xbeI&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=3" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
@@ -689,7 +689,7 @@
               h4 Pespuntar pechera
               p Consulte el video:
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=Eth7yvWIiEc&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=2" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
@@ -700,7 +700,7 @@
               h4 Pegado de las mangas
               p Consulte el video:
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=K571s6w4_Xg&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=17" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
@@ -711,7 +711,7 @@
               h4 Pespunte de las mangas
               p Consulte el video:
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=Dh4-NQONpuY&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=16" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
@@ -722,7 +722,7 @@
               h4 Unión de la prenda por los costados
               p Consulte el video:
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=oEu8URPgkVI&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=15" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
@@ -733,7 +733,7 @@
               h4 Fileteado de la pechera
               p Consulte el video:
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=qpEL-O1k2I0&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=14" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
@@ -744,7 +744,7 @@
               h4 Dobladillado del ruedo
               p Consulte el video:
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=CBhvm1ICgs8&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=13" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
@@ -755,7 +755,7 @@
               h4 Marcado y elaboración de los ojales
               p Consulte el video:
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=e2WGjWOmIzA&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=12" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
@@ -766,13 +766,13 @@
               h4 Marcado y colocación de los botones
               p Consulte el video:
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=BYFyy5WU-Uo&list=PLkc5n6npRWkjH9BnFJlUpDKgV0Zk3yhVe&index=11" target="_blank")
                   span Abrir video
                   i.fas.fa-file-video
 
 
-    .cajon.color-secundario.p-4.mb-4
-      p .row.justify-content-center(titulo="2")
+    .cajon.color-secundario.p-4.mb-4(data-aos="zoom-in-left")
+      p.mb-0 La secuencia presentada integra las operaciones requeridas para la confección de una camiseta deportiva tipo polo. La consulta ordenada de los recursos permite reconocer la relación entre las piezas, las máquinas utilizadas y el avance progresivo del ensamble hasta obtener la prenda terminada.
   
 
 
