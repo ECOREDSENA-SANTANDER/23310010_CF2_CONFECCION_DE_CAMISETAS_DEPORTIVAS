@@ -171,6 +171,8 @@ figcaption
     background-size: cover 
   @media screen and (max-width: 767px) 
     background-size: cover 
+.bg9 
+  color: #12263F
 .w-card-text2
   position: relative
   width: fit-content
@@ -300,3 +302,25 @@ figcaption
 .fa-minus, .fa-subtract 
   --fa: "\f068"
   color: #ffff
+
+.tarjeta-avatar .tarjeta 
+  display: inline-block
+  padding-top: 20px !important
+  height: 100%
+.tarjeta-audio.color-secundario .tarjeta-audio__texto 
+  color: #12263F
+
+.tabs-c
+  border-bottom: 0px
+  &__header
+    margin-bottom: 0px
+  &__tab--active
+    font-weight: bold
+.tabs-c.color-primario .tabs-c__tab--active 
+  border-bottom-color: #132A60 !important
+  background-color: #EAF8FF
+.tabs-c.color-primario .tabs-c__tab--active:before 
+  border-top-color: #132A60 
+.tabs-c__tab 
+  border-bottom: 4px solid #38BDF8
+  background-color: #AFE5FC

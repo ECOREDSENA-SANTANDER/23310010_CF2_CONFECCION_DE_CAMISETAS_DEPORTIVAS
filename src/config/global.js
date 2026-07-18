@@ -312,11 +312,11 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+            'Profesional 06. Responsable Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '---',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Responsable de línea de producción',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -326,8 +326,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: ' ',
+          nombre: 'Paola Angélica Castro Salazar',
+          cargo: 'Experta temática',
+          centro: 'Centro Agroturístico – Regional Santander',
+        },
+        {
+          nombre: 'Angelica Varon Quintero',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -336,19 +341,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Marcos Yamid Rubiano Avellaneda',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Desarrollador <i>full stack</i>',
+          nombre: 'Leonardo Castellanos Rodriguez',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y productora multimedia',
+          centro: 'Centro Agroturísticod - Regional Santander',
         },
       ],
     },
@@ -356,13 +361,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: 'Sandra Liliana Cristancho Cruz',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
